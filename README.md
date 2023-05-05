@@ -41,7 +41,7 @@ Your app is ready to be deployed!
 
 ### Prepare holder portal
 1. Clone the repository
-`https://github.com/Anushka3174/Holder-Portal.git`
+
 3. Install the dependencies
 `npm install`
 4. Open up the repository in a code editor of your choice
