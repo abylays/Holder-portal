@@ -1,0 +1,226 @@
+.Home {
+  padding: 50px 0 60px 0;
+}
+
+.Home .Title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin: 0 0 15px 0;
+}
+
+.Home .lander {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.Home .lander h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.Home .lander p {
+  color: #999;
+}
+
+.Home form {
+  margin: 0 auto;
+  max-width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 75px 65px;
+}
+
+.Home form label,
+.Credentials {
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.Home form input {
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  color: #777;
+  padding: 15px 15px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+input:read-only {
+  background-color: #f8f8f8;
+}
+
+.Home .ShareToken {
+  display: flex;
+  flex-direction: row;
+}
+
+.Home .ShareToken button {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.Home form textarea {
+  background-color: #f8f8f8;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  color: #777;
+  padding: 30px;
+  line-height: 1.5;
+  resize: none;
+  width: 100%;
+}
+
+.Home .TextareaContainer {
+  position: relative;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+}
+
+.Home .Title {
+  font-weight: 700;
+}
+
+.Home .ShareButton {
+  background: #2400FF;
+  border-color: #2400FF;
+  border-radius: 5px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  width: 166px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Home .ShareButton:hover {
+  background: #1800B8;
+  border-color: #1800B8;
+}
+
+.Home .ShareButton:disabled {
+  pointer-events: none;
+}
+
+.Home .ShowDetails {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #fff;
+  cursor: pointer;
+  margin: 0;
+}
+
+.Home .DeleteCredential {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #ff0000;
+  cursor: pointer;
+  margin: 0;
+}
+
+.Home .HideDetailsButton {
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 20px;
+  right: 200px;
+  color: #2400FF;
+  border: 1px solid #2400FF;
+  width: 166px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Home .HideDetailsButton:hover {
+  background: #2400FF;
+  color: #fff;
+}
+
+.Home .HideDetailsButton:disabled {
+  pointer-events: none;
+}
+
+.ValidateArea {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.ValidateArea > div:first-child {
+  display: flex;
+  flex-direction: row;
+}
+
+.ValidateArea > div:first-child > button {
+  margin-right: 15px
+}
+
+.ValidateError {
+  display: flex;
+  align-items: center;
+}
+
+.Icon {
+  margin: 0 20px;
+  max-width: 30px;
+  max-height: 30px;
+  min-height: 30px;
+  min-width: 30px;
+}
+
+.ErrorMessage {
+  font-size: 16px;
+}
+
+.LoadingGif {
+  margin-left: 20px;
+}
+
+textarea .ValidateArea {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 650px) {
+  .Home form {
+    padding: 40px 20px;
+  }
+
+  .ValidateArea {
+    flex-wrap: wrap;
+  }
+
+  .ErrorMessage {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Home .HideDetailsButton,
+  .Home .ShareButton {
+    width: auto;
+    padding: 0 10px;
+  }
+
+  .Home .HideDetailsButton {
+    right: 100px;
+  }
+}
