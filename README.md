@@ -1,4 +1,4 @@
-# Holder's web wallet powered by Affinidi API
+# Holder's web wallet 
 This is a react application that offers a web UI and uses Affinidy's API to store verifiable credentials. The portal can also be used to create verifiable presentation and offers advanced properties like selective disclosure. Once the credential is stored, it can be shared with different services.
 ## Pre-requisite
 - [npm](https://www.npmjs.com/get-npm)
